@@ -8,7 +8,7 @@ let package = Package(
         .library(name:"SwiftyBeaverKitura",targets:["SwiftyBeaverKitura"])
     ],
     dependencies: [
-        .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git", .upToNextMinor(from: "1.4.2")),
+        .package(url: "https://github.com/fuzed-innovations/SwiftyBeaver.git", .upToNextMinor(from: "1.4.2")),
         .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", .upToNextMinor(from: "1.7.1"))
     ],
     targets: [
